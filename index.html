@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        overflow-y: scroll;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 500px;
+      }
+      #info {
+        height: 200px;
+        overflow: scroll
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="capture"></div>
+    <div id='points'>
+      
+  	</div>
+    <script>
+      var map;
+      var points = [];
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 37.8068, lng: -122.4320},
+          zoom: 17
+        });
+        google.maps.event.addListener(map,'click', onClick);
+
+        function onClick(event) {
+          var point = {
+            'lat': event.latLng.lat(),
+            'lng': event.latLng.lng()
+          }
+          points.push(point);
+          var e = document.createElement('p');
+          e.innerHTML = point.latLng + ', ' + point.lng;
+          document.getElementById('points').appendChild(e);  
+
+          var marker = new google.maps.Marker({
+            position: point,
+            map: map,
+            title: 'Hello World!'
+          }); 
+        };
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqOJSlg7MMZC3Tl-K8BaD74PJ8t3ZEp30&callback=initMap"
+    async defer></script>
+  </body>
+</html

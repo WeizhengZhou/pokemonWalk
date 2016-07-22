@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "59BF11037ED1883EA9EE930AA3DB03379DC80501",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5E1E02E5DDF10BB38F1F7393326BA477C2DA68CC" : 0,
+    "59BF11037ED1883EA9EE930AA3DB03379DC80501" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "15AD2554-35D3-4BA9-A200-10646B983D8B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5E1E02E5DDF10BB38F1F7393326BA477C2DA68CC" : "",
+    "59BF11037ED1883EA9EE930AA3DB03379DC80501" : "pokemonMock\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pokemon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pokemon\/pokemon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:WeizhengZhou\/pokemonWalk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59BF11037ED1883EA9EE930AA3DB03379DC80501"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:WeizhengZhou\/pokemonWalk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E1E02E5DDF10BB38F1F7393326BA477C2DA68CC"
+    }
+  ]
+}

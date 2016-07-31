@@ -1,1 +1,1 @@
-python example.py -a PTC -u zzzphone -p 666666 -l "Sunnyvale Station, Sunnyvale" -st 40 -ar 2 -dp -dg
+python example.py -a PTC -u zzzphone -p 666666 -l "California Ave Station" -st 100 -ar 2 -dp -dg

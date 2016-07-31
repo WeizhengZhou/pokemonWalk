@@ -4,27 +4,27 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "5E1E02E5DDF10BB38F1F7393326BA477C2DA68CC" : 0,
-    "59BF11037ED1883EA9EE930AA3DB03379DC80501" : 0
+    "59BF11037ED1883EA9EE930AA3DB03379DC80501" : 0,
+    "447A07A2B0FB697F26D12A30D5C8F72726253C1F" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "15AD2554-35D3-4BA9-A200-10646B983D8B",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25AF6FC9-E5E3-434F-89AC-947C8E9A3045",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "5E1E02E5DDF10BB38F1F7393326BA477C2DA68CC" : "",
-    "59BF11037ED1883EA9EE930AA3DB03379DC80501" : "pokemonMock\/"
+    "59BF11037ED1883EA9EE930AA3DB03379DC80501" : "pokemonWalk\/",
+    "447A07A2B0FB697F26D12A30D5C8F72726253C1F" : "pokemonWalk\/map\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "pokemon",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pokemon\/pokemon.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:WeizhengZhou\/pokemonWalk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AHAAAAAAA\/PokemonGo-Map.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59BF11037ED1883EA9EE930AA3DB03379DC80501"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "447A07A2B0FB697F26D12A30D5C8F72726253C1F"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:WeizhengZhou\/pokemonWalk.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5E1E02E5DDF10BB38F1F7393326BA477C2DA68CC"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59BF11037ED1883EA9EE930AA3DB03379DC80501"
     }
   ]
 }

@@ -31,7 +31,7 @@ from requests.adapters import ConnectionError
 from requests.models import InvalidURL
 from transform import *
 from interest import *
-import route
+import run_and_stop
 import app_script
 
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
@@ -72,6 +72,8 @@ NEW_FLOAT_LAT = 0
 NEW_FLOAT_LONG = 0
 NEXT_LAT = 0
 NEXT_LONG = 0
+PRE_LAT = 0
+PRE_LNG = 0
 OVERRIDE_LOC = 0
 auto_refresh = 0
 default_step = 0.001
@@ -847,13 +849,23 @@ def next_loc():
 
 @app.route('/set_loc', methods=['POST'])
 def set_loc():
+    global PRE_LAT, PRE_LNG 
     lat = float(flask.request.args.get('lat', ''))
     lon = float(flask.request.args.get('lon', ''))
     if not (lat and lon):
         print('[-] Invalid next location: %s,%s' % (lat, lon))
     else:
-        route.Route(points=[(lat, lon)], speed=2, filename='pokemonData', n_run=30)
+        if not PRE_LAT:
+            PRE_LAT = lat - 2e-5
+            PRE_LNG = lon - 2e-5
+        points = [(PRE_LAT, PRE_LNG), (lat, lon)]
+        
+        run_and_stop.Route(points)
         app_script.RunXcode()
+
+        print 'Triggered Xcode to simulate location'
+        PRE_LAT = lat
+        PRE_LNG = lon
         return 'ok'
 
 

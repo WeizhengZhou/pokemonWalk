@@ -15,7 +15,7 @@
 		1A3464F31D4450C8004929DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3464F11D4450C8004929DF /* LaunchScreen.storyboard */; };
 		1A3464FE1D4450C8004929DF /* pokemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3464FD1D4450C8004929DF /* pokemonTests.m */; };
 		1A3465091D4450C8004929DF /* pokemonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3465081D4450C8004929DF /* pokemonUITests.m */; };
-		1A3465171D4451CB004929DF /* pokemonData.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1A3465161D4451CB004929DF /* pokemonData.gpx */; };
+		31B1FDAF1D5F87A6000C185A /* pokemonData.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 31B1FDAE1D5F87A6000C185A /* pokemonData.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		1A3465041D4450C8004929DF /* pokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A3465081D4450C8004929DF /* pokemonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pokemonUITests.m; sourceTree = "<group>"; };
 		1A34650A1D4450C8004929DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A3465161D4451CB004929DF /* pokemonData.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = pokemonData.gpx; path = ../map/pokemonData.gpx; sourceTree = "<group>"; };
+		31B1FDAE1D5F87A6000C185A /* pokemonData.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = pokemonData.gpx; path = ../navigator/data/pokemonData.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		1A3464D71D4450C8004929DF = {
 			isa = PBXGroup;
 			children = (
-				1A3465161D4451CB004929DF /* pokemonData.gpx */,
+				31B1FDAE1D5F87A6000C185A /* pokemonData.gpx */,
 				1A3464E21D4450C8004929DF /* pokemon */,
 				1A3464FC1D4450C8004929DF /* pokemonTests */,
 				1A3465071D4450C8004929DF /* pokemonUITests */,
@@ -250,7 +250,7 @@
 				1A3464F31D4450C8004929DF /* LaunchScreen.storyboard in Resources */,
 				1A3464F01D4450C8004929DF /* Assets.xcassets in Resources */,
 				1A3464EE1D4450C8004929DF /* Main.storyboard in Resources */,
-				1A3465171D4451CB004929DF /* pokemonData.gpx in Resources */,
+				31B1FDAF1D5F87A6000C185A /* pokemonData.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +509,7 @@
 				1A34650F1D4450C8004929DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3465101D4450C8004929DF /* Build configuration list for PBXNativeTarget "pokemonTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +518,7 @@
 				1A3465121D4450C8004929DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3465131D4450C8004929DF /* Build configuration list for PBXNativeTarget "pokemonUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +527,7 @@
 				1A3465151D4450C8004929DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

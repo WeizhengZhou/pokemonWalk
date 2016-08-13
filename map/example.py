@@ -209,6 +209,7 @@ def get_location_coords():
 
 
 def retrying_api_req(service, api_endpoint, access_token, *args, **kwargs):
+    import pdb; pdb.set_trace()
     while True:
         try:
             response = api_req(service, api_endpoint, access_token, *args,
@@ -881,8 +882,8 @@ def get_pokemarkers():
         'disappear_time': -1
     }]
 
-    # wzzhou
     for pokemon_key in pokemons:
+
         
         if pokemons[pokemon_key]['id'] not in interest_ids:
             continue
